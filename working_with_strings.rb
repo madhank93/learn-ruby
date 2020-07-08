@@ -39,7 +39,7 @@ puts(phrase.start_with?("He")) #true
 puts(phrase.end_with?("world")) #true
 
 # String to an array
-puts("Hello,world,ruby".split(','))
+"Hello,world,ruby".split(',') #  ["Hello", "world", "ruby"]
 
 # Array to a string
 puts(['hello', 'world', 'ruby'].join()) # helloworldruby
@@ -56,7 +56,7 @@ puts("123abc".match?(/\A-?\d+\Z/))
 
 # Replace a sub-string value
 string = "We have many cakes"
-puts(string.gsub("cakes", "chocolates"))
+puts(string.gsub("cakes", "chocolates")) #  "We have many chocolates"
 
 # count characters
-puts("Madhan".count('a'))
+puts("Madhan".count('a')) # 2

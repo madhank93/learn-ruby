@@ -25,3 +25,4 @@ puts(15.to_s) #15
 5.times do |i|
     print i, " "
 end
+# output: 0 1 2 3 4 => 5
